@@ -18,7 +18,9 @@ namespace capstone.Model
         public string? LastName { get; set; }
         public string? AdharNumber { get; set; }
         public bool? Simstatus { get; set; }
-
+        public string? State { get; set; }
+        public string? City { get; set; }
+        public long PinCode { get; set; }
     }
 
     public class JSonResponse

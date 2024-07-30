@@ -17,35 +17,10 @@
         <td mat-cell *matCellDef="let element">{{element.address}}</td>
     </ng-container>
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-    <tr mat-row *matRowDef="let row;columns:displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row;columns:displayedColumns" (click)="openDialog(row)"></tr>
 </table>
-<mat-paginator [pageSizeOptions]="[5,10,25,100]" showFirstLastButtons>
+<mat-paginator [pageSizeOptions]="[2,5,10,25,100]" showFirstLastButtons>
 
 </mat-paginator>
 
 
-<!-- 
-<ngx-smart-modal #myModal identifier="myModal">
-    <div *ngIf="myModal.hasData()">
-      <pre></pre>
-    </div>
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-        </div>
-        <div class="modal-body">
-          <form #myform="ngForm">
-            <div class="form-group">
-              <label for="recipient-name" class="col-form-label">Recipient:</label>
-              <input type="text" name="rec" ngModel class="form-control" id="recipient-name">
-            </div>
-            <div class="form-group">
-              <label for="message-text" class="col-form-label">Message:</label>
-              <textarea name="msg" ngModel  class="form-control" id="message-text"></textarea>
-            </div>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" (click)="closeModal('myModal')" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="submit" (click)="addData(myform)" class="btn btn-primary">Send message</button>
-        </div>
-  </ngx-smart-modal> -->

@@ -34,6 +34,8 @@ import{MatDialogModule} from '@angular/material/dialog';
 import{MatButtonModule} from '@angular/material/button';
 import{MatCommonModule} from '@angular/material/core';
 import{MatFormFieldModule} from '@angular/material/form-field';
+import { UpdateAddressDialogComponent } from './update-address-dialog/update-address-dialog.component';
+
 
 
 
@@ -48,7 +50,8 @@ import{MatFormFieldModule} from '@angular/material/form-field';
     ValidateCustomerComponent,
     ValidateCustomerDetailsComponent,
     ValidateIdproofComponent,
-    SpecialOfferComponent
+    SpecialOfferComponent,
+    UpdateAddressDialogComponent
   ],
   imports: [
     BrowserModule,

@@ -7,24 +7,24 @@
       "RelativeMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|solutionrelative:controllers\\capstonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|c:\\angulartraining\\capstone\\api\\capstone\\model\\offers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|solutionrelative:model\\offers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|c:\\angulartraining\\capstone\\api\\capstone\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|solutionrelative:repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|c:\\angulartraining\\capstone\\api\\capstone\\capstonedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|solutionrelative:capstonedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|c:\\angulartraining\\capstone\\api\\capstone\\repository\\idatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|solutionrelative:repository\\idatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|c:\\angulartraining\\capstone\\api\\capstone\\capstonedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|solutionrelative:capstonedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|c:\\angulartraining\\capstone\\api\\capstone\\model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|solutionrelative:model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|c:\\angulartraining\\capstone\\api\\capstone\\model\\offers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|solutionrelative:model\\offers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|c:\\angulartraining\\capstone\\api\\capstone\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -50,7 +50,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "offers.cs",
               "DocumentMoniker": "C:\\AngularTraining\\capstone\\api\\capstone\\Model\\offers.cs",
               "RelativeDocumentMoniker": "Model\\offers.cs",
@@ -62,27 +62,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "C:\\AngularTraining\\capstone\\api\\capstone\\Repository\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "Repository\\CustomerRepository.cs",
               "ToolTip": "C:\\AngularTraining\\capstone\\api\\capstone\\Repository\\CustomerRepository.cs",
               "RelativeToolTip": "Repository\\CustomerRepository.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACUAAAAIAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAawDQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T10:32:37.583Z"
+              "WhenOpened": "2024-07-28T10:32:37.583Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "IDataRepository.cs",
               "DocumentMoniker": "C:\\AngularTraining\\capstone\\api\\capstone\\Repository\\IDataRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IDataRepository.cs",
               "ToolTip": "C:\\AngularTraining\\capstone\\api\\capstone\\Repository\\IDataRepository.cs",
               "RelativeToolTip": "Repository\\IDataRepository.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAswAwAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T10:31:30.627Z"
+              "WhenOpened": "2024-07-28T10:31:30.627Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -92,22 +94,23 @@
               "RelativeDocumentMoniker": "Controllers\\CapstoneController.cs",
               "ToolTip": "C:\\AngularTraining\\capstone\\api\\capstone\\Controllers\\CapstoneController.cs",
               "RelativeToolTip": "Controllers\\CapstoneController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADsAAAAMAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAAwE4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-28T10:29:54.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\AngularTraining\\capstone\\api\\capstone\\Model\\Customer.cs",
               "RelativeDocumentMoniker": "Model\\Customer.cs",
               "ToolTip": "C:\\AngularTraining\\capstone\\api\\capstone\\Model\\Customer.cs",
               "RelativeToolTip": "Model\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAUAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBUAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T10:16:25Z"
+              "WhenOpened": "2024-07-28T10:16:25Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -141,9 +144,10 @@
               "RelativeDocumentMoniker": "CapstoneDBContext.cs",
               "ToolTip": "C:\\AngularTraining\\capstone\\api\\capstone\\CapstoneDBContext.cs",
               "RelativeToolTip": "CapstoneDBContext.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACwAAAAcAAAA",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAgwHsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T10:00:29.883Z"
+              "WhenOpened": "2024-07-28T10:00:29.883Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -63,3 +63,4 @@ C:\AngularTraining\capstone\api\capstone\obj\Debug\net6.0\refint\capstone.dll
 C:\AngularTraining\capstone\api\capstone\obj\Debug\net6.0\capstone.pdb
 C:\AngularTraining\capstone\api\capstone\obj\Debug\net6.0\capstone.genruntimeconfig.cache
 C:\AngularTraining\capstone\api\capstone\obj\Debug\net6.0\ref\capstone.dll
+C:\AngularTraining\capstone\api\capstone\obj\Debug\net6.0\capstone.sourcelink.json

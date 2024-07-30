@@ -3,8 +3,9 @@ import { MatTableDataSource } from '@angular/material/table';
 import { Customer } from '../Model/customerModel';
 import{MatPaginator} from '@angular/material/paginator';
 import{CapstoneService} from '../service/capstoneservice';
-import { FormGroup, NgForm } from '@angular/forms';
-import { NgxSmartModalService } from 'ngx-smart-modal';
+import { UpdateAddressDialogComponent } from '../update-address-dialog/update-address-dialog.component';
+import {MatDialog, MAT_DIALOG_DATA, MatDialogRef, MatDialogModule} from '@angular/material/dialog';
+import { Router } from '@angular/router';
  
 
 @Component({
@@ -19,13 +20,10 @@ displayedColumns=['name','email','dob','address'];
 dataSource:MatTableDataSource<Customer>;
 @ViewChild(MatPaginator) paginator!:MatPaginator;
 
-// @ViewChild('myform') form!: NgForm;
 
-editMode = false;
-editIndex:any;
 
-constructor(private capstoneService:CapstoneService,
-  public ngxSmartModalService: NgxSmartModalService){
+
+constructor(private capstoneService:CapstoneService,private dialog: MatDialog,public router:Router){
   this.dataSource=new MatTableDataSource(this.customers);
   this.capstoneService.getCustomers().subscribe((response)=>
    { 
@@ -48,34 +46,26 @@ ngAfterViewInit(){
   this.dataSource.paginator=this.paginator;
 }
 
-//  addData(form:any){
-//    var val = form.controls;
-//    const newData ={
-//      recipient : val.rec.value,
-//      message : val.msg.value
-//    }
-//   //  if(this.editMode){
-//   //    this.data[this.editIndex] = newData;
-//   //  }else{
-//   //    this.data.push(newData);
-//   //  }
-//    this.form.reset();
-//   this.ngxSmartModalService.close('myModal');
-//  }
+openDialog(customerRow: Customer): void {
+  
+  const dialogRef = this.dialog.open(UpdateAddressDialogComponent, {
+    data: {customer: customerRow},
+  });
 
-// onEdit(index){
-//   // this.editMode = true;
-//   // this.editIndex = index;
-//   // this.ngxSmartModalService.open('myModal');
-//   // this.form.setValue({
-//   //   rec:this.data[index].recipient,
-//   //   msg:this.data[index].message
-//   // });
-// }
+  dialogRef.afterClosed().subscribe(result => {
+    console.log('The dialog was closed');
+    this.capstoneService.getCustomers().subscribe((response)=>
+      { 
+       if(response!=null)
+         {
+           
+           this.dataSource=new MatTableDataSource(response);
+           this.dataSource.paginator=this.paginator;
+         }
+      }
+     
+     );
+  });
+}
 
-//  closeModal(id:any){
-//    this.form.reset();
-//   this.editMode=false;
-//   this.ngxSmartModalService.close(id);
- //}
 }

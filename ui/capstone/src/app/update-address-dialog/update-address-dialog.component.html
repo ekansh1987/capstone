@@ -1,0 +1,26 @@
+<h2 mat-dialog-title class="dialog-title">Update Customer Address</h2>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div mat-dialog-content class="dialog-content">
+        <input name="address" class="form-control" [ngModel]="address" placeholder="Address*" required formControlName="address" [ngClass]="{ 'is-invalid': submitted && f['address'].errors }">
+        <div *ngIf="submitted && f['address'].errors" class="invalid-feedback">
+            <div *ngIf="f['address'].errors['required']">address is required</div>
+        </div><br /><br />
+        <input name="city" class="form-control" [ngModel]="city" placeholder="City*" required formControlName="city" [ngClass]="{ 'is-invalid': submitted && f['city'].errors }">
+        <div *ngIf="submitted && f['city'].errors" class="invalid-feedback">
+            <div *ngIf="f['city'].errors['required']">city is required</div>
+        </div><br /><br />
+        <input name="pinCode" class="form-control" [ngModel]="pincode" placeholder="Pin Code*" required formControlName="pincode" [ngClass]="{ 'is-invalid': submitted && f['pincode'].errors }">
+        <div *ngIf="submitted && f['pincode'].errors" class="invalid-feedback">
+            <div *ngIf="f['pincode'].errors['required']">pincode is required</div>
+        </div><br /><br />
+        <input name="state" class="form-control" [ngModel]="state" placeholder="State*" required formControlName="state" [ngClass]="{ 'is-invalid': submitted && f['state'].errors }">
+        <div *ngIf="submitted && f['state'].errors" class="invalid-feedback">
+            <div *ngIf="f['state'].errors['required']">state is required</div>
+        </div><br /><br />
+        <input type="hidden" formControlName="id" [ngModel]="id">
+    </div>
+    <div mat-dialog-actions class="dialog-button-section">
+        <button type="button" (click)="onNoClick()">CANCEL</button>
+        <button type="submit" class="btn btn-primary">UPDATE</button>
+    </div>
+</form>

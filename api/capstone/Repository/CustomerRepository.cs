@@ -21,10 +21,10 @@ namespace capstone.Repository
             throw new NotImplementedException();
         }
 
-        public Customer Get(int id)
+        public async Task<Customer> Get(int id)
         {
-            return _dbContext.Customers
-                 .FirstOrDefault(e => e.Id == id);
+            return await _dbContext.Customers
+                 .FirstOrDefaultAsync(e => e.Id == id);
         }
 
         public async Task<IEnumerable<Customer>> GetAll()
@@ -37,9 +37,20 @@ namespace capstone.Repository
             return await _dbContext.offers.Where(x=>x.SimNumber==simnumber && x.ServiceNumber==servicenumber).ToListAsync();
         }
 
-        public void Update(Customer dbEntity, Customer entity)
+        public async Task<string> Update(Customer dbEntity, Customer entity)
         {
-            throw new NotImplementedException();
+            string result = string.Empty;
+            dbEntity.Address=entity.Address;
+            dbEntity.City=entity.City;
+            dbEntity.State=entity.State;
+            dbEntity.PinCode=entity.PinCode;
+            await Task.Run(() =>
+            {
+                _dbContext.Customers.Update(dbEntity);
+                _dbContext.SaveChanges();
+            });
+            result = "Address Update Successfully.";
+            return result;
         }
 
         public async Task<string> Validate(Customer entity)

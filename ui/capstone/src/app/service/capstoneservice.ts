@@ -31,5 +31,11 @@ import { Offers } from '../Model/offerModel';
     }  
     getallOffers(offers:Offers): Observable<Offers[]> {
         return this.http.post<Offers[]>(`${this.baseUrl}/special-offers`,offers);
-    }   
+    }
+    getCustomerById(customer:Customer): Observable<Customer> {
+        return this.http.post<Customer>(`${this.baseUrl}/getcustomerbyid`,customer);
+    } 
+    updateCustomerAddress(customer:Customer): Observable<string> {
+        return this.http.post(`${this.baseUrl}/update-address`,customer,{ responseType: 'text'});
+    }    
    }

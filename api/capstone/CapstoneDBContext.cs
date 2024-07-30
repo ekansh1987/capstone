@@ -79,7 +79,10 @@ namespace capstone
                 FirstName="Ekansh",
                 LastName="Chandra",
                 AdharNumber="397788000234",
-                Simstatus = false
+                Simstatus = false,
+                State="UttarPradesh",
+                City="Ghaziabad",
+                PinCode=2013078
             }, new Customer
             {
                 Id = 2,
@@ -92,7 +95,10 @@ namespace capstone
                 FirstName="Pankaj",
                 LastName="Pandey",
                 AdharNumber = "397788000235",
-                Simstatus = false
+                Simstatus = false,
+                State = "UttarPradesh",
+                City = "Noida",
+                PinCode = 201301
             },new Customer
             {
                 Id = 3,
@@ -105,7 +111,10 @@ namespace capstone
                 FirstName="Maulina",
                 LastName="Sharma",
                 AdharNumber = "397788000236",
-                Simstatus = false
+                Simstatus = false,
+                State = "UttarPradesh",
+                City = "Mathura",
+                PinCode = 281403
             },new Customer
             {
                 Id = 4,
@@ -118,7 +127,10 @@ namespace capstone
                 FirstName="Rajesh",
                 LastName="Verma",
                 AdharNumber = "397788000237",
-                Simstatus = false
+                Simstatus = false,
+                State = "UttarPradesh",
+                City = "Baliya",
+                PinCode = 201309
             },new Customer
             {
                 Id = 5,
@@ -131,7 +143,10 @@ namespace capstone
                 FirstName="Sarthak",
                 LastName="Tiwari",
                 AdharNumber = "397788000238",
-                Simstatus = false
+                Simstatus = false,
+                State = "UttarPradesh",
+                City = "Ghaziabad",
+                PinCode = 201308
             });
         }
     }

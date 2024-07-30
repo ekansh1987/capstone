@@ -59,5 +59,21 @@ namespace capstone.Controllers
             return await _dataRepository.GetAlloffers(offers.ServiceNumber,offers.SimNumber);
             
         }
+
+        [HttpPost]
+        [Route("getcustomerbyid")]
+        public async Task <Customer> GetCustomerById([FromBody] Customer customer)
+        {
+            return await _dataRepository.Get(customer.Id);
+
+        }
+        [HttpPost]
+        [Route("update-address")]
+        public async Task<string> updateAddress([FromBody] Customer customer)
+        {
+            Customer dbEntity= await _dataRepository.Get(customer.Id);
+            return await _dataRepository.Update(dbEntity, customer);
+
+        }
     }
 }
