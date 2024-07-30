@@ -1,0 +1,18 @@
+p {
+    font-family: Lato;
+  }
+  
+  #root {
+    padding: 30px;
+  }
+  
+  .register-form {
+    max-width: 350px;
+    margin: auto;
+  }
+  .parent {
+    display: flex;
+  }
+  .left, .right {
+    flex: 1;
+  }

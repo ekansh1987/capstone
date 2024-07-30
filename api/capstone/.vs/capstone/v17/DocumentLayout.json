@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\AngularTraining\\capstone\\api\\capstone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|c:\\angulartraining\\capstone\\api\\capstone\\controllers\\capstonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|solutionrelative:controllers\\capstonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|c:\\angulartraining\\capstone\\api\\capstone\\model\\offers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|solutionrelative:model\\offers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|c:\\angulartraining\\capstone\\api\\capstone\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|solutionrelative:repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|c:\\angulartraining\\capstone\\api\\capstone\\capstonedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|solutionrelative:capstonedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|c:\\angulartraining\\capstone\\api\\capstone\\repository\\idatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|solutionrelative:repository\\idatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|c:\\angulartraining\\capstone\\api\\capstone\\model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|solutionrelative:model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|c:\\angulartraining\\capstone\\api\\capstone\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|c:\\angulartraining\\capstone\\api\\capstone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|c:\\angulartraining\\capstone\\api\\capstone\\capstone.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{110167F5-F66C-4ABA-B71D-A3A6EE21A869}|capstone.csproj|solutionrelative:capstone.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "offers.cs",
+              "DocumentMoniker": "C:\\AngularTraining\\capstone\\api\\capstone\\Model\\offers.cs",
+              "RelativeDocumentMoniker": "Model\\offers.cs",
+              "ToolTip": "C:\\AngularTraining\\capstone\\api\\capstone\\Model\\offers.cs",
+              "RelativeToolTip": "Model\\offers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T11:34:52.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\AngularTraining\\capstone\\api\\capstone\\Repository\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CustomerRepository.cs",
+              "ToolTip": "C:\\AngularTraining\\capstone\\api\\capstone\\Repository\\CustomerRepository.cs",
+              "RelativeToolTip": "Repository\\CustomerRepository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T10:32:37.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDataRepository.cs",
+              "DocumentMoniker": "C:\\AngularTraining\\capstone\\api\\capstone\\Repository\\IDataRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IDataRepository.cs",
+              "ToolTip": "C:\\AngularTraining\\capstone\\api\\capstone\\Repository\\IDataRepository.cs",
+              "RelativeToolTip": "Repository\\IDataRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAswAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T10:31:30.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CapstoneController.cs",
+              "DocumentMoniker": "C:\\AngularTraining\\capstone\\api\\capstone\\Controllers\\CapstoneController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CapstoneController.cs",
+              "ToolTip": "C:\\AngularTraining\\capstone\\api\\capstone\\Controllers\\CapstoneController.cs",
+              "RelativeToolTip": "Controllers\\CapstoneController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T10:29:54.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\AngularTraining\\capstone\\api\\capstone\\Model\\Customer.cs",
+              "RelativeDocumentMoniker": "Model\\Customer.cs",
+              "ToolTip": "C:\\AngularTraining\\capstone\\api\\capstone\\Model\\Customer.cs",
+              "RelativeToolTip": "Model\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T10:16:25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\AngularTraining\\capstone\\api\\capstone\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\AngularTraining\\capstone\\api\\capstone\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAswCkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T10:03:37.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\AngularTraining\\capstone\\api\\capstone\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\AngularTraining\\capstone\\api\\capstone\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-28T10:00:31.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CapstoneDBContext.cs",
+              "DocumentMoniker": "C:\\AngularTraining\\capstone\\api\\capstone\\CapstoneDBContext.cs",
+              "RelativeDocumentMoniker": "CapstoneDBContext.cs",
+              "ToolTip": "C:\\AngularTraining\\capstone\\api\\capstone\\CapstoneDBContext.cs",
+              "RelativeToolTip": "CapstoneDBContext.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T10:00:29.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "capstone",
+              "DocumentMoniker": "C:\\AngularTraining\\capstone\\api\\capstone\\capstone.csproj",
+              "RelativeDocumentMoniker": "capstone.csproj",
+              "ToolTip": "C:\\AngularTraining\\capstone\\api\\capstone\\capstone.csproj",
+              "RelativeToolTip": "capstone.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-28T11:20:37.722Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<h1 style="color: #3f51b5;">Validate ID Proof</h1>
+<div class="register-form">
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <input type="text" formControlName="firstname" class="form-control" [ngClass]="{ 'is-invalid': submitted && f['firstname'].errors }" placeholder="First Name"/>
+            <div *ngIf="submitted && f['firstname'].errors" class="invalid-feedback">
+                <div *ngIf="f['firstname'].errors['required']">First Name is required</div>
+                <div *ngIf="f['firstname'].errors['maxlength']">First Name must not exceed 15 characters</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="text" formControlName="lastname" class="form-control" [ngClass]="{ 'is-invalid': submitted && f['lastname'].errors }" placeholder="Last Name"/>
+            <div *ngIf="submitted && f['lastname'].errors" class="invalid-feedback">
+                <div *ngIf="f['lastname'].errors['required']">Last Name is required</div>
+                <div *ngIf="f['lastname'].errors['maxlength']">Last Name must not exceed 15 characters</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="text" formControlName="adharnumber" class="form-control" [ngClass]="{ 'is-invalid': submitted && f['adharnumber'].errors }" placeholder="AdharNumber"/>
+            <div *ngIf="submitted && f['adharnumber'].errors" class="invalid-feedback">
+                <div *ngIf="f['adharnumber'].errors['required']">adharnumber is required</div>
+                <div *ngIf="f['adharnumber'].errors['pattern']">Invalid adharnumber</div>
+                <div *ngIf="f['adharnumber'].errors['maxlength']">Invalid adharnumber</div>
+                <div *ngIf="f['adharnumber'].errors['minlength']">Invalid adharnumber</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Validate</button>
+          </div>
+    </form>
+</div>
+

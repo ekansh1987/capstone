@@ -1,0 +1,40 @@
+<h1 style="color: #3f51b5;">Check Special Offers</h1>
+<div class="register-form">
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <input type="text" formControlName="simnumber" class="form-control" [ngClass]="{ 'is-invalid': submitted && f['simnumber'].errors }" placeholder="SIM Number"/>
+            <div *ngIf="submitted && f['simnumber'].errors" class="invalid-feedback">
+                <div *ngIf="f['simnumber'].errors['required']">Sim Number is required</div>
+                <div *ngIf="f['simnumber'].errors['pattern']">Only numbers can be enter</div>
+                <div *ngIf="f['simnumber'].errors['minlength']">Sim Number must be 13 characters</div>
+                <div *ngIf="f['simnumber'].errors['maxlength']">Sim Number must not exceed 13 characters</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="text" formControlName="servicenumber" class="form-control" [ngClass]="{ 'is-invalid': submitted && f['servicenumber'].errors }" placeholder="Service Number"/>
+            <div *ngIf="submitted && f['servicenumber'].errors" class="invalid-feedback">
+                <div *ngIf="f['servicenumber'].errors['required']">Service Number is required</div>
+                <div *ngIf="f['servicenumber'].errors['pattern']">Only numbers can be enter</div>
+                <div *ngIf="f['servicenumber'].errors['minlength']">Service Number must be 10 characters</div>
+                <div *ngIf="f['servicenumber'].errors['maxlength']">Service Number must not exceed 10 characters</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Check Offers</button>
+          </div>
+    </form>
+</div>
+<div class="parent">
+    <div class="left" *ngFor = "let title of specialoffers" style="padding: 10px;">
+        <mat-card appearance="outlined">
+            <mat-card-header>
+                <mat-card-title style="color:red"><b>{{ 1 | currency:'INR' }}</b></mat-card-title>
+                <mat-card-subtitle><b>1 GB/day data & unlimited calls</b></mat-card-subtitle>
+                <mat-card-subtitle><b>1000 SMS per day</b></mat-card-subtitle>
+                <mat-card-subtitle><b>28 days validity</b></mat-card-subtitle>
+                <mat-card-subtitle><b>Other benifit</b></mat-card-subtitle>
+                <mat-card-subtitle style="color:violet">VI movies and TV, Netflix subscription free for 1 year</mat-card-subtitle>
+            </mat-card-header>
+      </mat-card>
+    </div>
+</div>
